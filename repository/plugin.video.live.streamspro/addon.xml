@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
        version="2.8.1"
@@ -15,7 +14,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -39,23 +38,8 @@
         9. you can now append cookies in response and then read in regex using includeheaders
         10. You can now link to another web url via your xml using externallink
         11. support for google captcha, now you can show and then post the text
-
+        
     </description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="xbmc.python" version="2.25.0" provider-name="Team Kodi">
-  <backwards-compatibility abi="2.1.0"/>
-  <requires>
-    <import addon="xbmc.core" version="0.1.0"/>
-  </requires>
-  <extension-point id="script" schema="script.xsd"/>
-  <extension-point id="subtitles" schema="script.xsd"/>
-  <extension-point id="lyrics" schema="script.xsd"/>
-  <extension-point id="weather" schema="script.xsd"/>
-  <extension-point id="library" schema="script.xsd"/>
-  <extension-point id="plugin" schema="pluginsource.xsd"/>
-  <extension-point id="context.item" schema="contextitem.xsd"/>
-</addon>
-</addons>
