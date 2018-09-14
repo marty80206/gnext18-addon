@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.now_music" name="Now Thats What I Call Music"	version="5.5.7"	provider-name="Clipol">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="pulse.py">
-    <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Now Thats What I Call Music Collection</summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="repository.gnext18latino" name=" gNext18Latino Repo" version="1.0.0" provider-name="gNext18Latino">
-    <extension point="xbmc.addon.repository" name="gNext18Latino Repo">
-        <info compressed="false">https://raw.githubusercontent.com/gnext18latino/gnext18-addon/master/repository/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/gnext18latino/gnext18-addon/master/repository/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/gnext18latino/gnext18-addon/tree/master/repository</datadir>
+<addon id="repository.gnext18latino" name="gNext18Latino" version="1.0.1" provider-name="gNext18Latino">
+    <extension point="xbmc.addon.repository" name="gNext18Latino">
+        <info>https://raw.githubusercontent.com/gnext18latino/gnext18-addon/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/gnext18latino/gnext18-addon/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/gnext18latino/gnext18-addon/tree/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Summary</summary>
-        <description>Descripcion</description>
-        <disclaimer>Los propietarios y los remitentes a este repositorio no alojan ni distribuyen ninguno de los contenidos mostrados por estos addons ni tienen ninguna afiliaciÃ³n con los proveedores de contenido encontrados por los sitios gratuitos en internet.</disclaimer>
+        <summary>gNext18Latino</summary>
+        <description></description>
+        <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
 </addon>
