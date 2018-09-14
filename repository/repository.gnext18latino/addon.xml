@@ -6,7 +6,6 @@
         <datadir zip="true">https://raw.githubusercontent.com/gnext18latino/gnext18-addon/tree/master/repository</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
         <summary>Summary</summary>
         <description>Descripcion</description>
         <disclaimer>Los propietarios y los remitentes a este repositorio no alojan ni distribuyen ninguno de los contenidos mostrados por estos addons ni tienen ninguna afiliación con los proveedores de contenido encontrados por los sitios gratuitos en internet.</disclaimer>
